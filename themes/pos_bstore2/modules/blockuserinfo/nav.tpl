@@ -1,0 +1,40 @@
+<!-- Block user information module NAV  -->
+<div class="header_user_info welcome_note">
+	{if $is_logged}
+		Welcome <span>{$cookie->customer_firstname} {$cookie->customer_lastname}</span>
+	{else}
+		Welcome <span>Guest</span>
+	{/if}
+</div>
+<div class="header_user_info last">
+	{if $is_logged}
+		<a class="logout" href="{$link->getPageLink('index', true, NULL, "mylogout")|escape:'html':'UTF-8'}" rel="nofollow" title="{l s='Log me out' mod='blockuserinfo'}">
+			{l s='Sign out' mod='blockuserinfo'}
+		</a>
+	{else}
+		<a class="login" href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" rel="nofollow" title="{l s='Log in to your customer account' mod='blockuserinfo'}">
+			{l s='Sign in' mod='blockuserinfo'}
+		</a>
+	{/if}
+</div>
+<div class="header_user_info">
+	<a href="{$link->getPageLink($order_process, true)|escape:'html'}" title="{l s='View my shopping cart' mod='blockuserinfo'}" rel="nofollow">
+		{l s='My Cart' mod='blockuserinfo'}
+	</a>
+</div>
+<div class="header_user_info">
+	<a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='View my customer account' mod='blockuserinfo'}" rel="nofollow">
+		{l s='My Account' mod='blockuserinfo'}
+	</a>
+</div>
+<div class="header_user_info">
+	<a href="{$link->getModuleLink('blockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}" title="{l s='My wishlists' mod='blockuserinfo'}" rel="nofollow">
+		{l s='Wishlist' mod='blockuserinfo'}
+	</a>
+</div>
+<div class="header_user_info">
+	<a href="{$link->getPageLink("$order_process", true)|escape:"html":"UTF-8"}" title="{l s='Check out' mod='blockuserinfo'}" rel="nofollow">
+		{l s='Check out' mod='blockuserinfo'}
+	</a>
+</div>
+<!-- /Block usmodule NAV -->

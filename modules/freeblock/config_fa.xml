@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>freeblock</name>
+	<displayName><![CDATA[بلوك آزاد]]></displayName>
+	<version><![CDATA[1.1]]></version>
+	<description><![CDATA[نمايش بلوكي با محتوای آزاد - ترجمه و تنظيم : Www.PrestaTools.Ir]]></description>
+	<author><![CDATA[]]></author>
+	<tab><![CDATA[Blocks]]></tab>
+	<confirmUninstall><![CDATA[آيا از حذف كردن اين ماژول اطمينان داريد؟]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

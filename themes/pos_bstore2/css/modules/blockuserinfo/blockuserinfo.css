@@ -1,0 +1,29 @@
+.header_user_info{
+display: block;
+  float: right;
+  overflow: hidden;
+  border-right: 1px solid #555;
+  padding: 0 10px;}
+.header_user_info.last{
+padding-right: 0;
+border-right: 0;}
+.header_user_info a{
+font: 400 11px/25px 'Arial';
+color: #adadad;
+text-transform: capitalize;
+-webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;}
+.header_user_info a:hover{
+color: #c1a300;}
+.header_user_info.welcome_note{
+float: left;
+font: 400 11px/25px 'Arial';
+color: #adadad;
+text-transform: capitalize;}
+.header_user_info.welcome_note span{
+color: #c1a300;}
+
+/*# sourceMappingURL=blockuserinfo.css.map */

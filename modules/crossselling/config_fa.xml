@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>crossselling</name>
+	<displayName><![CDATA[فروش ضربدری]]></displayName>
+	<version><![CDATA[0.9.7]]></version>
+	<description><![CDATA[افزودن یک بخش &amp;quot;مشتریانی که این محصول را خریداری کرده اند، محصولات زیر را نیز خریدرای کرده اند ...&amp;quot; به هر صفحه ی محصول.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

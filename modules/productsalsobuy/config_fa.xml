@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>productsalsobuy</name>
+	<displayName><![CDATA[Products bought by other people]]></displayName>
+	<version><![CDATA[0.8]]></version>
+	<description><![CDATA[Customers who bought this item also bought]]></description>
+	<author><![CDATA[]]></author>
+	<tab><![CDATA[Products]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,70 @@
+.pos-logo{
+display: block;}
+/* title */
+.pos-logo .title_block{
+position: relative;
+padding-right: 70px;}
+@media (max-width: 767px){
+	.pos-logo .title_block{
+	padding: 0;}
+}
+.pos-logo .title_block h3{
+display: block;
+color: #3a3d42;
+position: relative;
+margin: 0;
+text-transform: uppercase;
+font: 400 18px/48px 'Bitter', serif;
+border-top: 1px solid #b0b1b3;}
+.pos-logo .title_block h3:after{
+content: "";
+width: 80px;
+position: absolute;
+top: 2px;
+display: block;
+left: 0;
+border-top: 3px solid #3a3d42;}
+/* navi */
+.pos-logo .navi{
+position: absolute;
+top: 0;
+right: 0;}
+@media (max-width: 767px){
+.pos-logo .navi{
+display: none;}
+}
+.pos-logo .navi a{
+display: block;
+float: left;
+cursor: pointer;
+width: 25px;
+height: 25px;
+line-height: 21px;
+color: #818181;
+position: relative;
+text-align: center;
+font-size: 15px;
+margin: 0 0 0 5px;
+border: 2px solid #3a3d42;
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;}
+.pos-logo .navi a:hover{
+border-color: #c1a300;
+color: #c1a300;}
+/* content */
+.pos-content-logo .owl-item{
+padding: 0 15px 20px;}
+.pos-content-logo .item{
+border: 1px solid #ebebeb;
+-webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;}
+.pos-content-logo .item:hover{
+border-color: #c1a300;}
+.pos-content-logo .item img{
+margin: 0 auto;}

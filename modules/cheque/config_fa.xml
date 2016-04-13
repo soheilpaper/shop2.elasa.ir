@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>cheque</name>
+	<displayName><![CDATA[چک]]></displayName>
+	<version><![CDATA[2.5.6]]></version>
+	<description><![CDATA[این ماژول به شما اجازه قبول پرداخت توسط چک را می دهد.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[آیا مطمین هستید که می خواهید جزییاتتان را حذف کنید؟]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

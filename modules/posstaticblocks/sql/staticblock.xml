@@ -1,0 +1,28 @@
+<pos_static_blocks>
+<!-- static block configuration -->
+	<block>
+		<id_posstaticblock></id_posstaticblock>
+		<identify></identify>
+		<hook_position></hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder></posorder>
+		<insert_module></insert_module>
+		<active></active>
+		<showhook></showhook>
+	</block>
+<!-- block lang configuration -->
+	<block_lang>
+		<id_posstaticblock></id_posstaticblock>
+		<id_lang></id_lang>
+		<title></title>
+		<description>
+			 <![CDATA[]]>
+		</description>
+	</block_lang>
+<!-- block shop configuration -->
+	<block_shop>
+		<id_posstaticblock></id_posstaticblock>
+		<id_shop></id_shop>
+	</block_shop>
+</pos_static_blocks>

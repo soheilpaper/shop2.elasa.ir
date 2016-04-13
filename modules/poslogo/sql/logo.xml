@@ -1,0 +1,15 @@
+<pos_logo>
+<!-- slideshow  configuration -->
+	<logo>
+		<id_pos_logo></id_pos_logo>
+		<title></title>
+		<link></link>
+		<description></description>
+		<porder></porder>
+	</logo>
+<!-- slideshop configuration -->
+	<logo_shop>
+		<id_pos_logo></id_pos_logo>
+		<id_shop></id_shop>
+	</logo_shop>
+</pos_logo>

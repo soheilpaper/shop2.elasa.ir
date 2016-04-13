@@ -1,0 +1,70 @@
+
+[{shop_url}] 
+
+سلام {firstname} {lastname}،
+
+از خرید شما در {shop_name} سپاس گذاریم! 
+
+سفارش: {order_name} ثبت شده در {date}
+
+روش پرداخت: {payment} 		 
+
+مرجع
+
+محصول
+
+قیمت واحد
+
+تعداد
+
+جمع قیمت
+
+{products_txt} 
+
+{discounts} 
+
+محصول‌ها 
+
+{total_products} 
+
+تخفیف ها 
+
+{total_discounts} 
+
+کادوپیچی 
+
+{total_wrapping} 
+
+ارسال 
+
+{total_shipping} 
+
+کل مالیات پرداختی 
+
+{total_tax_paid} 
+
+مجموع پرداختی 
+
+{total_paid} 
+
+حامل {carrier}
+
+روش پرداخت: {payment} 		 
+
+{delivery_block_txt} 
+
+{invoice_block_txt} 
+
+شما می توانید سفارش خود را بازبینی و
+فکتور آن را از "تاریخچه سفارش ها" که در
+بخش "حساب کاربری" است، دانلود کنید. 
+
+اگر شما یک حساب مهمان دارید، می
+توانید سفارش خود را از طریق بخش "پیگیری
+مهمان"
+[{guest_tracking_url}?id_order={order_name}]
+دنبال کنید. 
+
+{shop_name} [{shop_url}] راه‌اندازی
+شده توسط پرستاشاپ(tm) [http://www.prestashop.com/] 
+

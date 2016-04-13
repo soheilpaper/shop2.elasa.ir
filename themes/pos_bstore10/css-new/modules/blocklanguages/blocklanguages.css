@@ -1,0 +1,32 @@
+#languages-block-top {
+  float: left;
+  border-right: 1px solid #555;
+  position: relative; 
+  padding: 0 10px;}
+  #languages-block-top div.current {
+    cursor: pointer;
+	font: 400 11px/25px 'Arial';
+	color: #adadad;}
+	#languages-block-top div.current strong{
+	color: #ff4f4f;}
+  #languages-block-top ul {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 157px;
+    background: #3e3e3e;
+	border-top: 1px solid #555;
+    z-index: 2; }
+    #languages-block-top ul li {
+      color: #fff;}
+      #languages-block-top ul li a,
+      #languages-block-top ul li > span {
+        padding: 5px 10px 5px 12px;
+		font: 400 11px/25px 'Arial';
+        display: block;
+        color: #fff; }
+      #languages-block-top ul li.selected span, #languages-block-top ul li:hover a {
+        color: #ff4f4f; }
+
+/*# sourceMappingURL=blocklanguages.css.map */

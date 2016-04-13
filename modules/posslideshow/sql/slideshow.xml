@@ -1,0 +1,23 @@
+<pos_slideshow>
+<!-- slideshow  configuration -->
+	<slideshow>
+		<id_pos_slideshow></id_pos_slideshow>
+		<porder>0</porder>
+		<active>1</active>
+	</slideshow>
+<!-- language 1 -->
+	<slideshow_lang>
+		<id_pos_slideshow></id_pos_slideshow>
+		<id_lang></id_lang>
+		<title></title>
+		<link></link>
+		<description>
+		<![CDATA[]]>
+		</description>
+	</slideshow_lang>
+<!-- slideshop configuration -->
+	<slideshow_shop>
+		<id_pos_slideshow></id_pos_slideshow>
+		<id_shop>1</id_shop>
+	</slideshow_shop>
+</pos_slideshow>
